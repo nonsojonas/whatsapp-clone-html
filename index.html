@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>WhatsApp Clone</title>
+    <meta property="og:title" content="Skills" />
+    <meta property="og:url" content="/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="http://localhost/img_files/og.jpg" />
+    <meta name="theme-color" content="#222e35">
+    <meta name="msapplication-navbutton-color" content="#222e35">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#222e35">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/material-icons.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+
+  <body class="bg-color color">
+    <div class="container-fluid chat">
+      <div class="row">
+        <div class="col-sm-3 chat-left padding-0">
+          <div class="row user-top padding-10">
+            <div class="col-5">
+              <div class="desktop-view">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+              <div class="mobile-view">
+                <span class="w-title bold w3-large padding-10 block">WhatsApp Clone</span>
+              </div>
+            </div>
+            <div class="col-7 user-top-icons align-right">
+              <div class="desktop-view">
+                <span class="w-icon fa fa-group"></span>
+                <span class="w-icon fa fa-circle-o"></span>
+                <span class="w-icon fa fa-inbox"></span>
+                <span class="w-icon fa fa-ellipsis-v"></span>
+              </div>
+              <div class="mobile-view">
+                <span class="w-icon fa fa-search"></span>
+                <span class="w-icon fa fa-ellipsis-v"></span>
+              </div>
+            </div>
+          </div>
+          <div class="user-top-nav mobile-view">
+            <span class="inline-block w-heading bold small">CHATS <span class="badge radius-circle">2</span></span>
+          </div>
+
+          <div class="user-search padding-10 desktop-view">
+            <form action="" method="post">
+              <div class="row">
+                <div class="col-2 padding-0">
+                  <button type="button" id="search" name="search" name="button"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="col-10 padding-0">
+                  <input type="text" id="search-imput" name="search-imput" value="" placeholder="Search or start new chat">
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="user-list scroll-div">
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor active">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+
+            <div class="row list cursor">
+              <div class="col-2">
+                <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+              </div>
+
+              <div class="col-10 name-msg">
+                <div class="row">
+                  <div class="user-name col-6">User Name</div>
+                  <div class="chat-time inline-block small align-right col-6">01:00 PM</div>
+                </div>
+                <span class="block last-msg">You: Ok then.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-9 chat-right none">
+          <div class="chat-welcome align-center">
+            <i class="fa fa-whatsapp"></i>
+            <h1>WhatsApp Clone</h1>
+            <p class="desc">Send and recieve messages without keeping your phone online. <br> Use WhatsApp on up to 4 linked devices and 1 phone at the same time.</p>
+            <p class="end2end"><i class="fa fa-lock"></i> End-to-end encrypted</p>
+          </div>
+        </div>
+
+        <div class="col-sm-9 chat-right-2 padding-0">
+          <div class="row chat-msg-top">
+            <div class="col-2">
+              <img class="profile-photo radius-circle" src="img/user.png" alt="User">
+            </div>
+            <div class="col-7">
+              <span class="block chat-user bold">User Name</span>
+              <span class="block status small">Online</span>
+            </div>
+            <div class="col-3 chat-msg-icons align-right">
+              <span class="w-icon fa fa-search"></span>
+              <span class="w-icon fa fa-ellipsis-v"></span>
+            </div>
+          </div>
+
+          <div class="chat-msg-body scroll-div">
+            <p class="align-center msg-date">Today</p>
+            <div class="your-reply">
+              <span>
+                <span class="chat-msg">Hello friend, This app looks great.</span>
+                <span class="msg-time align-right">03:10 pm</span>
+              </span>
+            </div>
+            <div class="clear"></div>
+
+            <div class="their-reply">
+              <span>
+                <span class="chat-msg">Yea! I know right?</span>
+                <span class="msg-time align-right">03:11 pm</span>
+              </span>
+            </div>
+            <div class="clear"></div>
+          </div>
+
+          <div class="chat-msg-form">
+            <div class="flex-div">
+              <div class="smiley-clip">
+                <span class="w-icon fa fa-smile-o"></span>
+                <span class="w-icon fa fa-paperclip"></span>
+              </div>
+              <div class="chat-form">
+                <form action="index.html" method="post">
+                  <input type="text" name="type-msg" id="type-msg" value="" placeholder="Type a message">
+                  <button type="button" name="button"><span class="w-icon fa fa-send"></span></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
