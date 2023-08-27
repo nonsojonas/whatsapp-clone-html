@@ -1,6 +1,6 @@
 # WhatsApp Clone App (Design Only)
 
-A WhatsApp clone built with **HTML** and **CSS** only.
+A WhatsApp clone built with **HTML** and **CSS (Bootstrap)** only.
 
 ## Table of Contents
 
@@ -22,10 +22,10 @@ This is just a UI design of the Whatsapp Web in dark mode.
 ```bash
 git clone https://github.com/nonsojonas/whatsapp-clone-html.git
 cd whatsapp-clone-html
-npm install
-npm start
-
 ```
+
+Simple open the "index.html" file on your browser
+
 ## Usage
 
 This is only for learning / practice purpose.
